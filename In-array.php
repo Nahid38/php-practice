@@ -1,7 +1,7 @@
 <?php
-$food=array("Orange","banana","apple","grapes");
-// Direct funcion apply on if else
-if(in_array("apple",$food)){
+$food=array("Orange","banana","apple","55","grapes");
+// same search query er jonno 3rd parameter use korte hobe
+if(in_array(55,$food,true)){
     echo "Find Succcesfull";
 }else{
     echo "Can't Find";
