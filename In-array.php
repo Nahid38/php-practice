@@ -1,7 +1,7 @@
 <?php
 $food=array("Orange","banana","apple","grapes");
-$a=in_array("apple",$food);
-if($a==true){
+// Direct funcion apply on if else
+if(in_array("apple",$food)){
     echo "Find Succcesfull";
 }else{
     echo "Can't Find";
