@@ -1,5 +1,5 @@
 <?php
 $food=array(
-    'orrange','Banana','Apple','Grapes','55'
+    'a'=>'orrange','b'=>'Banana','c'=> 'Apple','d'=> 'Grapes'
 );
-echo array_search("Apple",$food);
+echo array_search('Apple',$food);
