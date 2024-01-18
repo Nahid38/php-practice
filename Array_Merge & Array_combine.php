@@ -1,6 +1,8 @@
 <?php
 $fruit=['a'=>"orange",'b'=>"banana",'c'=>"garps"];
-$veggie=['b'=>"carrot",'e'=>"pea"];
+$veggie=['b'=> ['color'=>["red","green","blue"]],
+
+        'e'=>"pea"];
 $newArray=array_merge_recursive($fruit,$veggie);
 
 echo "<pre>";
