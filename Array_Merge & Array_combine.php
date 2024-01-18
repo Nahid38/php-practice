@@ -1,9 +1,7 @@
 <?php
-$fruit=['a'=>"orange",'b'=>"banana",'c'=>"garps"];
-$veggie=['b'=> ['color'=>["red","green","blue"]],
-
-        'e'=>"pea"];
-$newArray=array_merge_recursive($fruit,$veggie);
+$fruit=["orange","banana","garps"];
+$veggie= ["red","green","blue"];
+$newArray=array_combine($fruit,$veggie);
 
 echo "<pre>";
 print_r($newArray);
