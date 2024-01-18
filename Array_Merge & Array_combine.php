@@ -1,5 +1,5 @@
 <?php
-$fruit=["orange","banana","garps"];
+$fruit=['a'=>"orange",'b'=>"banana",'c'=>"garps"];
 $veggie=["carrot","pea"];
 $newArray=array_merge($fruit,$veggie);
 
